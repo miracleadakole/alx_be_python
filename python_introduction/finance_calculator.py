@@ -10,4 +10,4 @@ Simple_interest_rate = 0.05
 Projected_Savings = Monthly_Savings * 12 + (Monthly_Savings * 12 * 0.05)
 
 print(f"Your monthly savings are ${Monthly_Savings}")
-print("Projected savings after one year, with interest, is: $" + str(int(Projected_Savings)))
+print("Projected savings after one year, with interest, is: $" + str(int(Projected_Savings))+".")
