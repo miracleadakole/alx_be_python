@@ -18,6 +18,6 @@ match priority:
         message = f" '{task}' has an unknown priority level"
 
 if time_bound == "yes":
-    print(f"\nReminder: {message} that requires immediate attention today!")
+    print(f"Reminder: {message} that requires immediate attention today!")
 else:
-    print(f"\nNote: {message}. Consider completing it when you have free time.")
+    print(f"Note: {message}. Consider completing it when you have free time.")
